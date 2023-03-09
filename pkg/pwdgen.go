@@ -2,6 +2,7 @@ package pkg
 
 import (
 	"bytes"
+	"fmt"
 	"github.com/ultima-liu/password-generator/internal"
 )
 
@@ -10,6 +11,7 @@ type PasswordGenerator struct {
 }
 
 func New() *PasswordGenerator{
+	fmt.Printf("sdsd", 1111)
 	return &PasswordGenerator{}
 }
 
